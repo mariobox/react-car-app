@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: steelblue;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+/* new css for car component */
+* {
+  box-sizing: border-box;
+}
+ 
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 5%;
+}
+ 
+.App-header h2 {
+  margin: 0;
+}
+ 
+.add-cars {
+  text-align: center;
+}
+ 
+.add-cars button {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 10px 30px 10px;
+}
+ 
+.car {
+  padding: 5px 25px 10px 25px;
+  max-width: 24%;
+  border: 1px solid #999;  
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/* car form styles */
+ 
+.car-form {
+  width: 250px;
+  margin: 0 auto;
+}
+ 
+.car-form input, .car-form textarea {
+  width: 250px;
+  font-size:14px;
+  padding: 5px;
+  margin: 5px;
+}
+ 
+.car-form button {
+  font-size: 16px;
+  padding: 4px;
+  margin: 10px 10px 30px 10px;
+}
