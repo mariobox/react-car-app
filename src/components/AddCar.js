@@ -19,8 +19,8 @@ class AddCar extends Component {
                 <p>Add a Car</p>
                 <input ref={(input) => this.model = input} type="text" placeholder="Model" />
                 <input ref={(input) => this.picture = input} type="text" placeholder="Picture" />
-                <input ref={(input) => this.blurb = input} type="text" placeholder="Description" />
-                <textarea ref={(input) => this.engine = input} placeholder="Engine">
+                <input ref={(input) => this.engine = input} type="text" placeholder="Engine" />
+                <textarea ref={(input) => this.blurb = input} placeholder="Description">
                 </textarea>
                 <button type="submit">Add Car</button>
             </form>
